@@ -15,8 +15,7 @@ const WatchSchema = mongoose.Schema({
     },
     delivery: {
         type: String,
-        default: "Free Delivery",
-        requiredd: true
+        default: "Free Delivery"
     },
     rating: {
         type: Number,

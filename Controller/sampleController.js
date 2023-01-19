@@ -4,6 +4,7 @@ exports.getAllProducts = async (req, res) => {
     try {
         const products = await sample.find();
 
+        console.log(products)
         res.status(200).json({
             status: "success",
             result: products.length,
